@@ -1,0 +1,19 @@
+.btn-amarillo {
+    @include btn($amarillo, inline-block);
+}
+.btn-amarillo-block {
+    @include btn($amarillo, block);
+}
+
+.btn-verde {
+    @include btn($verde, inline-block);
+}
+
+.btn-rojo-block {
+    @include btn($rojo, block);
+    width: 100%;
+}
+
+.btn-verde-block {
+    @include btn($verde, block);
+}

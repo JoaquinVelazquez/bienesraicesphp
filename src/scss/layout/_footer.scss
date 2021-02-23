@@ -1,0 +1,22 @@
+.footer {
+    padding: $separacion / 2 0;
+    background-color: $grisOscuro;
+
+    .contenido-footer {
+        padding: $separacion / 2;
+    }
+
+    .copyright {
+        color: $blanco;
+        text-align: center;
+        letter-spacing: .5rem;
+        font-size: 1.5rem;
+    }
+    margin-bottom: 0;
+
+    .navegacion {
+        height: auto;
+        visibility: visible;
+        opacity: 1;
+    }
+}
